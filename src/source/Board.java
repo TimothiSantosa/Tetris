@@ -289,46 +289,46 @@ public class Board extends JPanel implements KeyListener {
 		// TODO Auto-generated method stub
 
 	}
+//code ini dispensable bisa dia nggap dead code karena tidak di pakai di class ini atau lainnya
+	// public int getGRIDHEIGHT() {
+	// 	return GRIDHEIGHT;
+	// }
 
-	public int getGRIDHEIGHT() {
-		return GRIDHEIGHT;
-	}
+	// public int getGRIDWIDTH() {
+	// 	return GRIDWIDTH;
+	// }
 
-	public int getGRIDWIDTH() {
-		return GRIDWIDTH;
-	}
+	// public int getIndentY() {
+	// 	return indentY;
+	// }
 
-	public int getIndentY() {
-		return indentY;
-	}
+	// public int getIndentX() {
+	// 	return indentX;
+	// }
 
-	public int getIndentX() {
-		return indentX;
-	}
+	// public int getBorderY() {
+	// 	return borderY;
+	// }
 
-	public int getBorderY() {
-		return borderY;
-	}
+	// public boolean getGameOver() {
+	// 	return gameOver;
+	// }
 
-	public boolean getGameOver() {
-		return gameOver;
-	}
+	// public int getBorderX() {
+	// 	return borderX;
+	// }
 
-	public int getBorderX() {
-		return borderX;
-	}
+	// public boolean isShiftPressed() {
+	// 	return shiftPressed;
+	// }
 
-	public boolean isShiftPressed() {
-		return shiftPressed;
-	}
+	// public Piece getHoldPiece() {
+	// 	return holdPiece;
+	// }
 
-	public Piece getHoldPiece() {
-		return holdPiece;
-	}
-
-	public int getScore() {
-		return score;
-	}
+	// public int getScore() {
+	// 	return score;
+	// }
 
 	public void setScore(int score) {
 		this.score += score;
