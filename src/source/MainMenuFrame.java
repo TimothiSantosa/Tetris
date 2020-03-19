@@ -1,22 +1,19 @@
 package source;
 
 import javax.swing.JFrame;
-
-public class MainMenuFrame {
+//add inheritance for class so don`t need to make obj or variable name
+public class MainMenuFrame extends JFrame {
 	public static final int HEIGHT = 720, WIDTH = 640;
-	public static JFrame window;
-	private Board board;
 
 	public MainMenuFrame() {
-		window = new JFrame(
-				"Game Legendaris Klasik Balok Susun Lucu Warna-warni Hanya menyerupai Tapi Bukan TETRIS 2019");
-		window.setSize(WIDTH, HEIGHT);
-		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		window.setResizable(false);
-		window.setLocationRelativeTo(null);
+		setTitle("Game Legendaris Klasik Balok Susun Lucu Warna-warni Hanya menyerupai Tapi Bukan TETRIS 2019");
+		setSize(WIDTH, HEIGHT);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setResizable(false);
+		setLocationRelativeTo(null);
 
-		window.add(new MainMenuPanel());
-		window.setVisible(true);
+		add(new MainMenuPanel());
+		setVisible(true);
 
 	}
 
